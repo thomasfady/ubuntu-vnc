@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER Daniel Guerra
+MAINTAINER Thomas FADY
 
 ENV DEBIAN_FRONTEND noninteractive
 

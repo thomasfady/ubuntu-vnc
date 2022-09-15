@@ -7,10 +7,17 @@ Login the vnc server is not required
 Start the server:
 
 ```bash
-docker run -p 5900:5900 -d danielguerra/ubuntu-vnc:latest 
+docker run -p 5900:5900 -d thomasfady/ubuntu-vnc:latest 
 ```
 
 Connect with your favorite vncviewer to your <docker-host>
 
 Default user is : ubuntu
 with password   : ubuntu
+VNC password    : ubuntu
+
+Define a custom VNC password:
+
+```bash
+docker run -e VNC_PASS=password -p 5900:5900 -d thomasfady/ubuntu-vnc:latest 
+```
