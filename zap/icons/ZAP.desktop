@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=/home/ubuntu/ZAP/zap.sh
+Icon=/home/ubuntu/ZAP/zap.ico
+StartupNotify=true
+Terminal=false
+Name=OWASP ZAP
